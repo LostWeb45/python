@@ -1,5 +1,5 @@
 #Строки
-sample = "Тестовый Тестовый тест для теста"
+sample = "съешь же ещё этих мягких французских булок, да выпей чаю"
 
 
 def analyze_text(text):
@@ -23,7 +23,7 @@ def analyze_text(text):
                 maxword = currentw
                 maxleng = coutltr
             elif (maxleng == coutltr):
-                maxword += "и " + currentw
+                maxword += " и " + currentw
             
             currentw = ''
     
